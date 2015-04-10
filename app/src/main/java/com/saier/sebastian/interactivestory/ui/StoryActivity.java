@@ -60,7 +60,7 @@ public class StoryActivity extends ActionBarActivity {
 
         if (mCurrentPage.isFinal()) {
             mChoice1.setVisibility(View.INVISIBLE);
-            mChoice2.setText("PLAY AGAIN");
+            mChoice2.setText("PLAY AGAIN IF YOU WANT");
             mChoice2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
